@@ -1,0 +1,94 @@
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.background {
+    background-image: linear-gradient(rgba(216, 216, 216, 0.238), rgba(228, 228, 228, 0.233)),
+                  url("restar2.jpg");
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.nav-bar {
+    background-color: wheat;
+    display: flex;
+    width: 100%;
+    height: 4em;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-content {
+    
+  display: flex;
+  border-radius: 5%;
+  background-color: rgba(128, 128, 128, 0.342);
+  font-weight: bolder;
+}
+.text{
+    background: wheat;
+    padding: none;
+    margin: none;
+    
+    
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    
+}
+p{
+    margin-left: 18%;
+    font-size: 1em;
+    font-weight: bolder;
+    
+}
+
+.Menu-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 150rem;
+    background-color: rgb(245, 216, 178);
+    
+}
+.menu-item-holer{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    margin: 8%;
+    background-color: rgb(250, 187, 104);
+
+}
+
+.menu-item-pic{
+    display: flex;
+    background-image: url("tacos-platter.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    height: 100%;
+}
+.menu-item-description{
+    display: flex;
+    background-color: gray;
+    opacity: 80%;
+    flex-basis: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.7em;
+    justify-self: center;
+    align-items: center;
+
+    
+}
+
