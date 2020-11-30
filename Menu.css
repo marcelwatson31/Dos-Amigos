@@ -1,14 +1,17 @@
 
-body{
+body,html{
     margin: 0 !important;
-    padding: 0 !important;
+    height: fit-content;
+    
+
 }
 .background {
     background-image: linear-gradient(rgba(216, 216, 216, 0.238), rgba(228, 228, 228, 0.233)),
                   url("images/restar2.jpg");
     background-size: cover;
     height: 100%;
-    position: fixed;
+    
+    
 }
 
 .nav-bar {
@@ -18,11 +21,10 @@ body{
     height: 4em;
     justify-content: space-evenly;
     align-items: center;
-    position: fixed;
-  top: 0;
-  width: 100%;
-  
-  z-index: 1;
+    position:  sticky;
+   top: 0;
+   width: 100%;
+   z-index: 1;
     
 }
 .logo{
@@ -50,8 +52,6 @@ body{
     margin-top: 80px;
     margin-bottom: 10px;
     
-    
-    
 }
 h1{
     text-align: center;
@@ -65,7 +65,6 @@ p{
     margin-left: 18%;
     font-size: 1em;
     font-weight: bolder;
-    
 }
 
 .Menu-container{
@@ -105,8 +104,24 @@ p{
     text-align: center;
     font-size: 1.7em;
     justify-self: center;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    color: white;
+    height: 4rem;
+    font-weight: bolder;
+    background-color: rgb(85, 77, 62);
+}
+.footlinks{
+    flex-basis: 33%;
+    color: white;
+    display: flex;
+    border-radius: 5%;
+    background-color:rgba(128, 128, 128, 0.342)
+}
