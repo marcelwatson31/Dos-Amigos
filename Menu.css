@@ -5,11 +5,10 @@ body{
 }
 .background {
     background-image: linear-gradient(rgba(216, 216, 216, 0.238), rgba(228, 228, 228, 0.233)),
-                  url("restar2.jpg");
+                  url("images/restar2.jpg");
     background-size: cover;
     height: 100%;
     position: fixed;
-    
 }
 
 .nav-bar {
@@ -27,7 +26,7 @@ body{
     
 }
 .logo{
-    background-image: url("mariachi.png");
+    background-image: url("images/mariachi.png");
     background-size: contain;
     height: 80px;
     width: 75px;
@@ -91,7 +90,7 @@ p{
 
 .menu-item-pic{
     display: flex;
-    background-image: url("tacos-platter.jpeg");
+    background-image: url("images/tacos-platter.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     flex-basis: 50%;
